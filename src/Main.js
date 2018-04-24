@@ -11,7 +11,7 @@ class Main extends Component {
       <div>
       <div className="navbar">
 
-        <header className="header bg-black tc pv4 CinzelD mt2 mb0 i fw1 f1">Austin T. Berner<h1 className="h1 mt2 mb0 f6 fw4">A Developer's Page</h1>
+        <header className="header bg-black tc pv4 CinzelD mt2 mb0 i fw1 f1">Austin T. Berner<h1 className="h1 mt2 mb0 f6 fw4">A Developers Page</h1>
         </header>
         
         <div id="nav" className="bt bb center mt4">
