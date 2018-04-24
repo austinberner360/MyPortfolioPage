@@ -1,0 +1,272 @@
+/*'Cinzel Decorative', cursive;*/
+/*'Cinzel', serif;*/
+/*.content:: -webkit-scrollbar {display:none;}*/
+/*.content:hover {
+  overflow-y: auto;
+}*/
+/*.active {
+  background-color: grey;
+}*/
+/*@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}*/
+
+html, body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  min-height: 100vh;
+   background: url(https://s5.postimg.cc/kubcptyl3/forge6.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*Navbar section*/
+
+
+.navbar h1 {
+  line-height: 2em;
+  font-size: 1rem;
+  letter-spacing: .2rem;
+}
+.navbar{
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+    max-width: 85%;
+    font-family: 'Cinzel', serif;
+    margin-top: 1em;
+    padding-left: .5em;
+}
+
+#nav a {
+  color: orange;
+  font-size: 1.1em;
+}
+
+._about, ._portfolio, ._connect {
+  margin: auto;
+  width: 85%;
+  max-width: 1175px;
+  padding-top: 19em;
+
+}
+
+._about-body, ._portfolio-body, ._connect-body {
+    color: white;
+    background-color: rgba(0,0,0,.7);
+    font-family: Cinzel, serif;
+    font-size: 1.4em;
+    line-height: 1.5;
+    padding: 5% 5%;
+    border: solid white 2px;
+    margin-bottom: 8em;
+}
+
+._about-body h3{
+  padding-top: 6vw;
+  font-size: 2.5rem;
+}
+
+._about-body p h5 {
+  font-size: 1.1em;
+  font-style: italic;
+  font-family: 'Antic Slab', serif;
+}
+
+._about-body p {
+font-family: 'Antic Slab', serif;
+clear: both;
+}
+
+h3 {
+font-family: 'Cinzel Decorative', cursive;
+font-size: 1.5em;
+text-align: center;
+letter-spacing: .2rem;
+}
+
+h4 {
+letter-spacing: .1rem;
+font-style: italic;
+text-align: center;
+margin-bottom: 2em;
+}
+
+._portfolio-body h3 {
+  text-decoration: underline;
+  letter-spacing: .5rem;
+  font-size: 2em;
+  margin-top: 3rem;
+  line-height: .5rem;
+}
+
+
+._portfolio-list {
+  line-height: 3rem;
+  list-style-type: disc;
+  /*list-style-image: url(images/bullet.png);*/
+}
+
+.github {
+  color: orange;
+}
+
+._links {
+  display: inline-flex;
+  padding-left: 1rem;
+}
+
+.fa {
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.media-object {
+  border: solid black 10px;
+  max-width: 30%;
+  max-height: 30%;
+  float: left;
+  margin: 20px 20px 20px 0px;
+}
+
+.bt {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: white;
+}
+
+.bb {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: white;
+}
+
+.CinzelD {
+    font-family: 'Cinzel Decorative', cursive; letter-spacing: .3rem;
+    color: white;
+}
+
+/*.Cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+.i {
+    font-style: italic;
+}
+
+.fw1, .fw4 {
+    color: white;
+}
+
+.fw4 {
+    font-weight: 400;
+    color: white;
+}
+
+.white {
+    color: white;
+}
+
+.hover-bg-gunmetal:hover {
+    background-color: #233237;
+}
+
+.hover-bg-gunmetal:focus {
+    background-color: #233237;
+}
+
+.pa3 {
+    padding: 1rem;
+}
+
+.pv4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.mt2 {
+    margin-top: .5rem;
+}
+
+.mt4 {
+    margin-top: 2rem;
+}
+
+.tc {
+    text-align: center;
+}
+
+.f1 {
+    font-size: 3rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+/*.center {
+    display: flex;
+    justify-content: space-around;
+}*/
+
+.bg-animate, .bg-animate:hover, .bg-animate:focus {
+    transition: background-color .3s ease-in-out;
+}
+
+@media screen and (min-width: 60em) {
+    .ph4-l {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .f5-l {
+        font-size: 1rem;
+    }
+}
+
+
+
+/*End Navbar section*/
