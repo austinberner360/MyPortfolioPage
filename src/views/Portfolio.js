@@ -8,7 +8,7 @@ import React, { Component } from "react";
         <h3>Portfolio</h3>
           <h4>Take a look at my projects and please feel free to give me any feedback!<br />Thank You</h4>
             <ul className="_portfolio-list">
-              <li>My_Portfolio @ <a href="https://github.com/austinberner360/My_Portfolio"target="_blank" className="github">GitHub</a></li>
+              <li>My Portfolio Page @ <a href="https://austinberner360.github.io/MyPortfolioPage"target="_blank" className="github">GitHub</a></li>
             </ul>
             </div>
       </div>
